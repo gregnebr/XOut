@@ -1,7 +1,7 @@
 #based on hangman program from  Self Taught Programmer   may 2020
 #edits by Greg Clements
 import random
-
+#new
 
 def set_stages(i):
     # select easy or hard level
@@ -84,5 +84,4 @@ nwords = len(word_list[i_group])
 
 random.seed()
 i = random.randint(0,nwords-1)
-
 xout(word_list[i_group][i],i_difficulty)
