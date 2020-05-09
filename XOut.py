@@ -1,7 +1,6 @@
 #based on hangman program from  Self Taught Programmer   may 2020
 #edits by Greg Clements
 import random
-#new
 
 def set_stages(i):
     # select easy or hard level
