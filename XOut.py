@@ -76,7 +76,7 @@ print("Welcome to 'X Out'  ... Select a category for the word.")
 i_group =int( input("    Enter 1 for animals; 2 for transportation, 3 for trees: ") )
 i_group -=1
 print("Guess the letters for a word from the category of ... ",categories[i_group])
-i_difficulty = input("Enter 1 for easy and 2 for harder game: ")
+i_difficulty = int(input("Enter 1 for easy and 2 for harder game: "))
 
 print("Two adjacent underscores represent one letter.")
 print("If you see a complete X pattern,  you have lost.")
