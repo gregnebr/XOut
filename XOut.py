@@ -36,9 +36,9 @@ def xout(word,i):
     while wrong < len(stages)-1 :
         remaining = len(stages)-wrong-1
         if remaining > 1:
-            msg = "You have " +str(remaining)+ " wronge guesses remaining.  Guess a letter: "
+            msg = "You have " +str(remaining)+ " wrong guesses remaining.  Guess a letter: "
         else:
-            msg = "You have " + str(remaining) + " wronge guess remaining.  Guess a letter: "
+            msg = "You have " + str(remaining) + " wrong guess remaining.  Guess a letter: "
         char = input(msg)
         guessed.append(char)
         if char in rletters:
