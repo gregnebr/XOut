@@ -79,6 +79,7 @@ print("Guess the letters for a word from the category of ... ",categories[i_grou
 i_difficulty = input("Enter 1 for easy and 2 for harder game: ")
 
 print("Two adjacent underscores represent one letter.")
+print("If you see a complete X pattern,  you have lost.")
 nwords = len(word_list[i_group])
 
 random.seed()
